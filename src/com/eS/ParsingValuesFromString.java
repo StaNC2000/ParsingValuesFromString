@@ -4,10 +4,10 @@ public class ParsingValuesFromString {
 
     public static void main(String[] args) {
 	// write your code here
-        String numberAsString = "2018";
+        String numberAsString = "2018.125";
         System.out.println("numberAsString " + numberAsString);
 
-        int number = Integer.parseInt(numberAsString);
+        double number = Double.parseDouble(numberAsString);
         System.out.println("number " + number);
 
         numberAsString += 1;
